@@ -1,6 +1,6 @@
 # RoomPlan
 
-RoomPlan is a new Swift API (iOS 16) that utilizes the camera and LiDAR Scanner on iPhone and iPad to create a 3D floor plan of a room.
+Part of ARKit, RoomPlan is a Swift API (available for iOS 16) that utilizes the camera and LiDAR Scanner on iPhone and iPad to create a 3D floor plan of a room.
 
 Using the data provided by the RoomPlan API, I demonstrate the ability to
 * Re-categorize and visualize room object data
