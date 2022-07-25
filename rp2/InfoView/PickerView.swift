@@ -25,14 +25,16 @@ class PickerView: UIView {
     private func setupView() {
         // label
         let titleLabel = UILabel()
-        titleLabel.font = UIFont.preferredFont(forTextStyle: .title3)
+        titleLabel.font = UIFont(name: themeFontLight, size: 18)
         titleLabel.textAlignment = .left
         titleLabel.text = "Edit Category:"
+        titleLabel.textColor = themeTextColor
         addSubview(titleLabel)
         self.titleLabel = titleLabel
 
         // picker
         let pickerView = UIPickerView()
+
         addSubview(pickerView)
         self.pickerView = pickerView
     }

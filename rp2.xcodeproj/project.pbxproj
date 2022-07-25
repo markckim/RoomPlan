@@ -13,6 +13,25 @@
 		FE21B210285C57A5009C739D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE21B20E285C57A5009C739D /* Main.storyboard */; };
 		FE21B212285C57A6009C739D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE21B211285C57A6009C739D /* Assets.xcassets */; };
 		FE21B215285C57A6009C739D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE21B213285C57A6009C739D /* LaunchScreen.storyboard */; };
+		FE21B221285C5A23009C739D /* tricycle.usdz in Resources */ = {isa = PBXBuildFile; fileRef = FE21B21D285C5A23009C739D /* tricycle.usdz */; };
+		FE21B222285C5A23009C739D /* toy.usdz in Resources */ = {isa = PBXBuildFile; fileRef = FE21B21E285C5A23009C739D /* toy.usdz */; };
+		FE21B224285C5A23009C739D /* toaster.usdz in Resources */ = {isa = PBXBuildFile; fileRef = FE21B220285C5A23009C739D /* toaster.usdz */; };
+		FE21B229285C5A2D009C739D /* tricycle.png in Resources */ = {isa = PBXBuildFile; fileRef = FE21B225285C5A2C009C739D /* tricycle.png */; };
+		FE21B22B285C5A2D009C739D /* toy.png in Resources */ = {isa = PBXBuildFile; fileRef = FE21B227285C5A2D009C739D /* toy.png */; };
+		FE21B22C285C5A2D009C739D /* toaster.png in Resources */ = {isa = PBXBuildFile; fileRef = FE21B228285C5A2D009C739D /* toaster.png */; };
+		FE21B22E285C5A87009C739D /* CapturedRoom+Extra.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE21B22D285C5A87009C739D /* CapturedRoom+Extra.swift */; };
+		FE21B230285C5AB1009C739D /* SCNNode+Extra.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE21B22F285C5AB1009C739D /* SCNNode+Extra.swift */; };
+		FE21B232285C5AD1009C739D /* MathUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE21B231285C5AD1009C739D /* MathUtil.swift */; };
+		FE21B234285C5FD7009C739D /* ViewController+Asset.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE21B233285C5FD7009C739D /* ViewController+Asset.swift */; };
+		FE21B236285C66F4009C739D /* ObjectNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE21B235285C66F4009C739D /* ObjectNode.swift */; };
+		FE21B238285D2559009C739D /* ViewController+Picker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE21B237285D2559009C739D /* ViewController+Picker.swift */; };
+		FE21B23A285D5205009C739D /* AssetNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE21B239285D5205009C739D /* AssetNode.swift */; };
+		FE21B264286041D0009C739D /* close_button.png in Resources */ = {isa = PBXBuildFile; fileRef = FE21B263286041D0009C739D /* close_button.png */; };
+		FE21B26E2860628E009C739D /* PickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE21B26A2860628E009C739D /* PickerView.swift */; };
+		FE21B26F2860628E009C739D /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE21B26B2860628E009C739D /* InfoView.swift */; };
+		FE21B2702860628E009C739D /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE21B26C2860628E009C739D /* StatsView.swift */; };
+		FE21B2712860628E009C739D /* LabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE21B26D2860628E009C739D /* LabelView.swift */; };
+		FE810CB928626B1400BDDC9E /* UIColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE810CB828626B1400BDDC9E /* UIColor+Hex.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +42,25 @@
 		FE21B20F285C57A5009C739D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FE21B211285C57A6009C739D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FE21B214285C57A6009C739D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FE21B21D285C5A23009C739D /* tricycle.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = tricycle.usdz; sourceTree = "<group>"; };
+		FE21B21E285C5A23009C739D /* toy.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = toy.usdz; sourceTree = "<group>"; };
+		FE21B220285C5A23009C739D /* toaster.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = toaster.usdz; sourceTree = "<group>"; };
+		FE21B225285C5A2C009C739D /* tricycle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tricycle.png; sourceTree = "<group>"; };
+		FE21B227285C5A2D009C739D /* toy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toy.png; sourceTree = "<group>"; };
+		FE21B228285C5A2D009C739D /* toaster.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toaster.png; sourceTree = "<group>"; };
+		FE21B22D285C5A87009C739D /* CapturedRoom+Extra.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CapturedRoom+Extra.swift"; sourceTree = "<group>"; };
+		FE21B22F285C5AB1009C739D /* SCNNode+Extra.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SCNNode+Extra.swift"; sourceTree = "<group>"; };
+		FE21B231285C5AD1009C739D /* MathUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathUtil.swift; sourceTree = "<group>"; };
+		FE21B233285C5FD7009C739D /* ViewController+Asset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+Asset.swift"; sourceTree = "<group>"; };
+		FE21B235285C66F4009C739D /* ObjectNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectNode.swift; sourceTree = "<group>"; };
+		FE21B237285D2559009C739D /* ViewController+Picker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+Picker.swift"; sourceTree = "<group>"; };
+		FE21B239285D5205009C739D /* AssetNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetNode.swift; sourceTree = "<group>"; };
+		FE21B263286041D0009C739D /* close_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close_button.png; sourceTree = "<group>"; };
+		FE21B26A2860628E009C739D /* PickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerView.swift; sourceTree = "<group>"; };
+		FE21B26B2860628E009C739D /* InfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		FE21B26C2860628E009C739D /* StatsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
+		FE21B26D2860628E009C739D /* LabelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelView.swift; sourceTree = "<group>"; };
+		FE810CB828626B1400BDDC9E /* UIColor+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Hex.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,14 +93,57 @@
 		FE21B207285C57A5009C739D /* rp2 */ = {
 			isa = PBXGroup;
 			children = (
+				FE21B21B285C5A0E009C739D /* PNG */,
+				FE21B21C285C5A16009C739D /* USDZ */,
+				FE21B26928606286009C739D /* InfoView */,
 				FE21B208285C57A5009C739D /* AppDelegate.swift */,
 				FE21B20A285C57A5009C739D /* art.scnassets */,
-				FE21B20C285C57A5009C739D /* ViewController.swift */,
-				FE21B20E285C57A5009C739D /* Main.storyboard */,
 				FE21B211285C57A6009C739D /* Assets.xcassets */,
+				FE21B20E285C57A5009C739D /* Main.storyboard */,
 				FE21B213285C57A6009C739D /* LaunchScreen.storyboard */,
+				FE21B20C285C57A5009C739D /* ViewController.swift */,
+				FE21B239285D5205009C739D /* AssetNode.swift */,
+				FE21B235285C66F4009C739D /* ObjectNode.swift */,
+				FE21B231285C5AD1009C739D /* MathUtil.swift */,
+				FE21B22D285C5A87009C739D /* CapturedRoom+Extra.swift */,
+				FE21B22F285C5AB1009C739D /* SCNNode+Extra.swift */,
+				FE21B233285C5FD7009C739D /* ViewController+Asset.swift */,
+				FE21B237285D2559009C739D /* ViewController+Picker.swift */,
+				FE810CB828626B1400BDDC9E /* UIColor+Hex.swift */,
 			);
 			path = rp2;
+			sourceTree = "<group>";
+		};
+		FE21B21B285C5A0E009C739D /* PNG */ = {
+			isa = PBXGroup;
+			children = (
+				FE21B263286041D0009C739D /* close_button.png */,
+				FE21B228285C5A2D009C739D /* toaster.png */,
+				FE21B227285C5A2D009C739D /* toy.png */,
+				FE21B225285C5A2C009C739D /* tricycle.png */,
+			);
+			path = PNG;
+			sourceTree = "<group>";
+		};
+		FE21B21C285C5A16009C739D /* USDZ */ = {
+			isa = PBXGroup;
+			children = (
+				FE21B220285C5A23009C739D /* toaster.usdz */,
+				FE21B21E285C5A23009C739D /* toy.usdz */,
+				FE21B21D285C5A23009C739D /* tricycle.usdz */,
+			);
+			path = USDZ;
+			sourceTree = "<group>";
+		};
+		FE21B26928606286009C739D /* InfoView */ = {
+			isa = PBXGroup;
+			children = (
+				FE21B26B2860628E009C739D /* InfoView.swift */,
+				FE21B26D2860628E009C739D /* LabelView.swift */,
+				FE21B26A2860628E009C739D /* PickerView.swift */,
+				FE21B26C2860628E009C739D /* StatsView.swift */,
+			);
+			path = InfoView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +206,13 @@
 			files = (
 				FE21B20B285C57A5009C739D /* art.scnassets in Resources */,
 				FE21B215285C57A6009C739D /* LaunchScreen.storyboard in Resources */,
+				FE21B224285C5A23009C739D /* toaster.usdz in Resources */,
+				FE21B229285C5A2D009C739D /* tricycle.png in Resources */,
+				FE21B22C285C5A2D009C739D /* toaster.png in Resources */,
+				FE21B222285C5A23009C739D /* toy.usdz in Resources */,
+				FE21B221285C5A23009C739D /* tricycle.usdz in Resources */,
+				FE21B22B285C5A2D009C739D /* toy.png in Resources */,
+				FE21B264286041D0009C739D /* close_button.png in Resources */,
 				FE21B212285C57A6009C739D /* Assets.xcassets in Resources */,
 				FE21B210285C57A5009C739D /* Main.storyboard in Resources */,
 			);
@@ -138,7 +226,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				FE21B20D285C57A5009C739D /* ViewController.swift in Sources */,
+				FE21B26F2860628E009C739D /* InfoView.swift in Sources */,
+				FE21B234285C5FD7009C739D /* ViewController+Asset.swift in Sources */,
+				FE21B236285C66F4009C739D /* ObjectNode.swift in Sources */,
+				FE21B22E285C5A87009C739D /* CapturedRoom+Extra.swift in Sources */,
+				FE21B23A285D5205009C739D /* AssetNode.swift in Sources */,
+				FE21B232285C5AD1009C739D /* MathUtil.swift in Sources */,
+				FE810CB928626B1400BDDC9E /* UIColor+Hex.swift in Sources */,
 				FE21B209285C57A5009C739D /* AppDelegate.swift in Sources */,
+				FE21B2702860628E009C739D /* StatsView.swift in Sources */,
+				FE21B2712860628E009C739D /* LabelView.swift in Sources */,
+				FE21B238285D2559009C739D /* ViewController+Picker.swift in Sources */,
+				FE21B26E2860628E009C739D /* PickerView.swift in Sources */,
+				FE21B230285C5AB1009C739D /* SCNNode+Extra.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

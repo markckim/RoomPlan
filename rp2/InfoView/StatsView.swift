@@ -37,7 +37,8 @@ class StatsView: UIView {
 
     private func setupView() {
         let titleLabel = UILabel()
-        titleLabel.font = UIFont.preferredFont(forTextStyle: .title3)
+        titleLabel.font = UIFont(name: themeFontLight, size: 18)
+        titleLabel.textColor = themeTextColor
         titleLabel.numberOfLines = 2
         titleLabel.textAlignment = .left
         addSubview(titleLabel)

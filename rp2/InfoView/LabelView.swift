@@ -18,9 +18,12 @@ class LabelView: UIView {
     }
 
     private var titleLabel: UILabel?
+    private var textColor: UIColor
 
-    override init(frame: CGRect) {
+    init(frame: CGRect, backgroundColor: UIColor, textColor: UIColor) {
+        self.textColor = textColor
         super.init(frame: frame)
+        self.backgroundColor = backgroundColor
         setupView()
         setupConstraints()
     }
@@ -30,14 +33,13 @@ class LabelView: UIView {
     }
 
     func setupView() {
-        self.backgroundColor = UIColor.systemGray
-
         titleLabel = UILabel()
         guard let titleLabel = titleLabel else {
             return
         }
-        titleLabel.font = UIFont.preferredFont(forTextStyle: .title1)
+        titleLabel.font = UIFont(name: themeFont, size: 36)
         titleLabel.textAlignment = .center
+        titleLabel.textColor = textColor
         addSubview(titleLabel)
 
         self.titleLabel = titleLabel
