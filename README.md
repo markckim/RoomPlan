@@ -8,8 +8,9 @@ Using the data provided by the RoomPlan API, I demonstrate the ability to
 * Guide users when placing objects into the scene
     * Warn users about neary electrical, or fire hazards
     * Guide users on optimal locations for objects
+* Implement label info UI/UX transforming 3D labels -> 2D views
 
-Showing label info UI/UX:
+Label Info UI/UX Demo:
 
 https://user-images.githubusercontent.com/1800538/178425436-d93126b3-558e-4ab2-bcb4-c58a8fe3d88b.mov
 
