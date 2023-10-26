@@ -6,7 +6,7 @@ Using the data provided by the RoomPlan API, I demonstrate the ability to
 * Re-categorize and visualize room object data
     * E.g., re-categorizing an object from "Storage" to "Table"
 * Guide users when placing objects into the scene
-    * Warn users about neary electrical, or fire hazards
+    * Warn users about nearby electrical, or fire hazards
     * Guide users on optimal locations for objects
 * Implement label info UI/UX transforming 3D labels -> 2D views
 
